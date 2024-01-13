@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{60ade47e-d1f9-46fc-9a14-b9a544d9c288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="array">
+      <UniqueIdentifier>{7d11cafe-6582-407a-8928-a119c273615e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="array.cpp">
+      <Filter>array</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array.h">
+      <Filter>array</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
